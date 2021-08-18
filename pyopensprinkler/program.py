@@ -2,7 +2,7 @@
 
 import json
 
-from custom_pyopensprinkler.const import (
+from pyopensprinkler.const import (
     SCHEDULE_START_TIME_FIXED,
     SCHEDULE_START_TIME_REPEATING,
     SCHEDULE_TYPE_INTERVAL_DAY,

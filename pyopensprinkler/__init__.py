@@ -10,7 +10,7 @@ import urllib
 
 import aiohttp
 from backoff import expo, on_exception
-from custom_pyopensprinkler.const import (
+from pyopensprinkler.const import (
     HARDWARE_TYPE_AC,
     HARDWARE_TYPE_DC,
     HARDWARE_TYPE_LATCHING,
@@ -40,8 +40,8 @@ from custom_pyopensprinkler.const import (
     WEATHER_ERROR_NOT_RECEIVED,
     WEATHER_ERROR_TIME_OUT,
 )
-from custom_pyopensprinkler.program import Program
-from custom_pyopensprinkler.station import Station
+from pyopensprinkler.program import Program
+from pyopensprinkler.station import Station
 
 
 def synchronized(lock):

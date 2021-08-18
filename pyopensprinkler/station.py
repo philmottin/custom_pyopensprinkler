@@ -2,7 +2,7 @@
 
 import math
 
-from custom_pyopensprinkler.const import (
+from pyopensprinkler.const import (
     STATION_STATUS_IDLE,
     STATION_STATUS_MANUAL,
     STATION_STATUS_MASTER_ENGAGED,
