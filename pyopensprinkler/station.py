@@ -161,6 +161,10 @@ class Station(object):
     def name(self):
         """Station name"""
         return self._controller._state["stations"]["snames"][self._index]
+    @property
+    def friendly_name(self):
+        """Station name"""
+        return self._controller._state["stations"]["snames"][self._index]        
 
     @property
     def index(self):
